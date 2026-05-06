@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N빵페이 | 가장 쉽고 깔끔한 더치페이</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav">
+            <div class="logo">🧾 N빵페이</div>
+
+            <ul class="menu">
+                <li><a href="#features">기능</a></li>
+                <li><a href="#start">시작하기</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>가장 쉽고 깔끔하게 끝내는 더치페이</h1>
+
+            <p>
+                영수증 사진 한 장으로 자동 정산.<br>
+                친구들과 부담 없이 N빵하세요.
+            </p>
+
+            <div class="buttons">
+                <button class="primary-btn" onclick="handleStart()">
+                    시작하기
+                </button>
+
+                <button class="secondary-btn" onclick="scrollFeatures()">
+                    기능 보기
+                </button>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/app-preview.png" alt="앱 미리보기">
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+
+            <h2>핵심 기능</h2>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    <div class="icon">📸</div>
+                    <h3>영수증 자동 인식</h3>
+                    <p>
+                        영수증 사진만 올리면
+                        메뉴와 금액을 자동으로 분석합니다.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">⚖️</div>
+                    <h3>공정한 정산</h3>
+                    <p>
+                        먹은 사람만 선택해서
+                        정확하게 계산할 수 있습니다.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">📲</div>
+                    <h3>간편 송금 연결</h3>
+                    <p>
+                        토스, 카카오페이 등으로
+                        바로 송금할 수 있습니다.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="start">
+        <div class="container">
+            <h2>친구들과 바로 시작해보세요</h2>
+
+            <p>
+                링크 하나로 간편하게 모임방 생성 가능
+            </p>
+
+            <button class="primary-btn" onclick="makeInvite()">
+                초대 링크 만들기
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 N빵페이</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
